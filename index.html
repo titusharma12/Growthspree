@@ -1,0 +1,570 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body onload="Listening()">
+    <section class="section-top">
+        <nav class="flex justify-between items-center px-16 py-3">
+            <div class="nav-logo">
+                <img src="images/logo.png" alt="" width="223px" height="42.25px" />
+            </div>
+            <div class="nav-btn">
+                <button class="nav-btn-inside">Get a Free Trial</button>
+            </div>
+        </nav>
+        <div class="nav-line"></div>
+        <div class="top-mid flex justify-evenly items-center mt-16">
+            <div class="top-mid-text">
+                <div class="top-mid-upperText">
+                    <span class="Alternative p-2">#1 Alternative</span> to <br />
+                    <span class="Social"> Social Studio.</span><br />
+                    Seamlessly Integrate<br />
+                    with Salesforce
+                </div>
+                <div class="top-mid-lowerText mt-16">
+                    Introducing Konnect Insights, an ALL-IN-ONE platform for Social
+                    Listening, Social Care, Social Analytics, Social Publishing and much
+                    more!
+                </div>
+            </div>
+            <div class="top-mid-form">
+                <form class="top-form mx-auto">
+                    <div class="mb-5">
+                        <label for="Name" class="block mb-2 text-sm font-medium dark:text-white">Full Name</label>
+                        <input type="text" id="Name" class="text-input" placeholder="Gautam" required />
+                    </div>
+                    <div class="mb-5">
+                        <label for="email" class="block mb-2 text-sm font-medium dark:text-white">
+                            Email</label>
+                        <input type="email" id="email" class="text-input" placeholder="yourid@mail.com" required />
+                    </div>
+                    <div class="mb-5">
+                        <label for="mobile" class="block mb-2 text-sm font-medium dark:text-white">Mobile</label>
+                        <input type="text" id="mobile" class="text-input" placeholder="000-000-0000" required />
+                    </div>
+                    <div class="mb-5">
+                        <label for="Company" class="block mb-2 text-sm font-medium dark:text-white">Company Name</label>
+                        <input type="text" id="Company" class="text-input" placeholder="Alpha" required />
+                    </div>
+
+                    <div class="form-btn">
+                        <button class="form-btn-inside">Get a Free Trial</button>
+                        <p class="btn-tg">No CC Required</p>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="top-bottom mt-10">
+            <div class="top-bottom-text">TRUSTED BY 1000+ GLOBAL BRANDS</div>
+            <div class="top-bottom-image flex justify-center items-center">
+                <img src="images/brands.png" alt="" />
+            </div>
+        </div>
+    </section>
+    <section class="section-mid">
+        <div class="insight-heading mt-16">
+            Why Konnect Insights is the
+            <span class="Alternative p-2"> Best Social Studio Alternative?</span>
+        </div>
+        <div class="insight flex justify-evenly items-center mt-16">
+            <div class="insight-list">
+                <img src="images/insight-1.png" alt="" />
+                <div class="insight-txt">
+                    Create rules to<br />
+                    automate pushing<br />
+                    tickets
+                </div>
+            </div>
+            <div class="insight-list">
+                <img src="images/insight-2.png" alt="" />
+                <div class="insight-txt">
+                    Seamlessly sync<br />
+                    status in both<br />
+                    systems
+                </div>
+            </div>
+            <div class="insight-list">
+                <img src="images/insight-3.png" alt="" />
+                <div class="insight-txt">
+                    Achieve<br />
+                    field/object<br />
+                    mapping
+                </div>
+            </div>
+            <div class="insight-list">
+                <img src="images/insight-4.svg" alt="" />
+                <div class="insight-txt">
+                    Respond to social<br />
+                    media tickets from<br />
+                    salesforce
+                </div>
+            </div>
+            <div class="insight-list">
+                <img src="images/insight-5.svg" alt="" />
+                <div class="insight-txt">
+                    Send social media<br />
+                    tickets & contacts<br />
+                    to Salesforce
+                </div>
+            </div>
+        </div>
+        <div class="insight-btn mt-8">
+            <button class="insight-btn-inside">Get a Free Trial</button>
+            <p class="insight-tg">No CC Required</p>
+        </div>
+        <div class="internet mt-16">
+            3000+ Integrations & 100% Data Coverage Across the Internet!
+        </div>
+        <div class="internet-img mt-8 bg-[#F4F4F4] p-4">
+            <img src="images/internet.png" alt="" />
+        </div>
+        <div class="integration-heading flex justify-center items-center mt-16">
+            <button class="Alternative p-2">Benefits of the Integration</button>
+        </div>
+        <div class="integration-container flex justify-evenly items-center mt-16">
+            <div class="integration-list flex gap-8 bg-[#F4F4F4] p-4 rounded">
+                <img src="images/website-1.png" alt="" />
+                <div class="integration-txt">
+                    <strong>One-View</strong> of <br />the customer in <br />
+                    <strong>Salesforce</strong>
+                </div>
+            </div>
+            <div class="integration-list flex gap-8 bg-[#F4F4F4] p-4 rounded">
+                <img src="images/website-2.png" alt="" />
+                <div class="integration-txt">
+                    Empowers agents with <br /><strong>real-time</strong> access to
+                    <strong>social <br />media conversations</strong>
+                </div>
+            </div>
+            <div class="integration-list flex gap-8 bg-[#F4F4F4] p-4 rounded">
+                <img src="images/website-3.png" alt="" />
+                <div class="integration-txt">
+                    <strong>Lead generation</strong> from <br />social media created as
+                    <br />opportunities in <strong>SFDC</strong>
+                </div>
+            </div>
+        </div>
+        <div class="insight-btn mt-8">
+            <button class="insight-btn-inside">Get a Free Trial</button>
+            <p class="insight-tg">No CC Required</p>
+        </div>
+        <div class="marketing mt-16">
+            <div class="marketing-heading">
+                <span class="Alternative p-2">Unify</span> your
+                <span class="Alternative p-2">Customer Care</span> and
+                <span class="Alternative p-2">Marketing Insights</span>
+            </div>
+            <div class="marketing-para mt-5">
+                Stop spending on 10+ tools and save up to 91% of your SaaS spend.
+            </div>
+        </div>
+        <div class="slider">
+            <div class="slider-btnList flex justify-center items-center mt-16">
+                <button class="slider-btn ml-1 rounded " id="Social_Listening" onclick="Listening()">
+                    Social Listening
+                </button>
+                <button class="slider-btn  ml-1 rounded" id="Online_Reputation" onclick="Reputation()">
+                    Online Reputation
+                </button>
+                <button class="slider-btn ml-1 rounded" id="Social_CRM" onclick="CRM()">
+                    Social CRM
+                </button>
+                <button class="slider-btn ml-1 rounded" id="Social_Analytics" onclick="Analytics()">
+                    Social Analytics
+                </button>
+                <button class="slider-btn ml-1 rounded" id="Social_Publishing" onclick="Publishing()">
+                    Social Publishing
+                </button>
+                <button class="slider-btn ml-1 rounded" id="Surveys_Feedback" onclick="Feedback()">
+                    Surveys & Feedback
+                </button>
+                <button class="slider-btn ml-1 rounded" id="BI_Tools_Dashboards" onclick="Dashboards()">
+                    BI Tools & Dashboards
+                </button>
+                <button class="slider-btn ml-1 rounded" id="Crisis_Management" onclick="Management()">
+                    Crisis Management
+                </button>
+            </div>
+        </div>
+        <div class="slider-content mt-8">
+            <div class="Social_Listening flex justify-evenly" id="Listening">
+                <div class="Social_Listening-content mt-4 ml-12">
+                    <div class="listening-txt">
+                        <div class="heading-listening">
+                            Listen to online web, Social Media and a lot more
+                        </div>
+                        <div class="para-listening mt-2">
+                            Do not miss out on any conversation anywhere on the web.
+                            <br />Listen to your customer's voice, engage with them and make
+                            <br />them happier
+                        </div>
+                    </div>
+                    <div class="listening-txt mt-8">
+                        <div class="heading-listening">Get Market Intelligence</div>
+                        <div class="para-listening mt-2">
+                            Analyze customer data from anywhere on the web and social
+                            <br />media. Get real-time market intelligence. Fine-tune your
+                            <br />strategies and make valuable business decisions
+                        </div>
+                    </div>
+                    <div class="listening-txt mt-8">
+                        <div class="heading-listening">Creative Asset Library</div>
+                        <div class="para-listening mt-2">
+                            Pre-save all your content, including text and media, in the
+                            <br />creative asset library. Easily pick them up for publishing
+                            and <br />scheduling, giving your design and content teams the
+                            flexibility<br />
+                            to plan and execute your campaigns and festivals
+                        </div>
+                    </div>
+                </div>
+                <div class="Social_Listening-image">
+                    <img src="images/navigation-1.png" alt="" />
+                </div>
+            </div>
+            <div class="Social_Listening flex justify-evenly mb-8" id="Reputation">
+                <div class="Social_Listening-content mt-6 ml-12">
+                    <div class="listening-txt">
+                        <div class="heading-listening">Conversations as Tickets</div>
+                        <div class="para-listening mt-2">
+                            View all conversations related to your brand in the form of
+                            <br />support tickets, which give you a detailed overview of the
+                            <br />customers and their queries in terms of history,
+                            analytics, <br />followers, and influence. Based on this, you
+                            can define <br />priorities for response management
+                        </div>
+                    </div>
+                    <div class="listening-txt mt-8">
+                        <div class="heading-listening">Escalations & auto assignment</div>
+                        <div class="para-listening mt-2">
+                            You have the flexibility to check with external teams who are
+                            <br />not a part of the tool regarding responses through email
+                            <br />escalations by adding the conversation details. You can
+                            also <br />auto-assign queries to appropriate users/groups based
+                            on the <br />rules you define, thus reducing time
+                        </div>
+                    </div>
+                    <div class="listening-txt mt-8">
+                        <div class="heading-listening">Creative Asset Library</div>
+                        <div class="para-listening mt-2">
+                            Get a complete view of all the tickets that are at various
+                            stages <br />of resolution, check TAT scores, and identify areas
+                            that <br />need more action. Measure the impact by analyzing the
+                            difference <br />in sentiment based on your efforts
+                        </div>
+                    </div>
+                </div>
+                <div class="flex flex-col">
+                    <div class="flex justify-center items-center">
+                        <img src="images/navigation-img-2.png" alt="" />
+                        <img src="images/navigation-img-3.png" alt=""  class="repu-18"/>
+                    </div>
+                    <div class="flex justify-center items-center">
+                        <img src="images/navigation-img-4.png" alt="" />
+                        <img src="images/navigation-img-5.png" alt="" />
+                    </div>
+                </div>
+            </div>
+            <div class="Social_Listening flex justify-evenly mb-8" id="CRM">
+                <div class="Social_Listening-content mt-6 ml-12">
+                    <div class="listening-txt">
+                        <div class="heading-listening">Automation and workflows</div>
+                        <div class="para-listening mt-2">
+                            Workflows and automation such as queuing, ticket history,
+                            <br />auto-assignment and classification, draft templates, and
+                            many <br />more to ensure your agents are empowered to respond
+                            to and <br />resolve queries in a timely manner
+                        </div>
+                    </div>
+                    <div class="listening-txt mt-8">
+                        <div class="heading-listening">Agent performance</div>
+                        <div class="para-listening mt-2">
+                            Track and measure How are your agents performing with
+                            <br />various TAT reports and SLAs to be able to identify the
+                            hits <br />and misses and ensure the right actions are taken in
+                            terms of <br />agent productivity?
+                        </div>
+                    </div>
+                    <div class="listening-txt mt-8">
+                        <div class="heading-listening">One view of the customer</div>
+                        <div class="para-listening mt-2">
+                            Have all your customer query data points, including web and
+                            <br />social, in one place to be able to have a holistic view of
+                            the <br />customer, including the query history, details, etc,
+                            and use this <br />information for better CXM
+                        </div>
+                    </div>
+                </div>
+                <div class="flex flex-col">
+                    <div class="flex justify-center items-center">
+                        <img src="images/image 32.png" alt="" />
+                        <img src="images/image 33.png" alt="" />
+                    </div>
+                    <div class="flex justify-center items-center">
+                        <img src="images/image 34.png" alt="" />
+                    </div>
+                </div>
+            </div>
+            <div class="Social_Listening flex justify-evenly" id="Analytics">
+                <div class="Social_Listening-content mt-4 mb-8">
+                    <div class="listening-txt">
+                        <div class="heading-listening">Analytics and Benchmarking</div>
+                        <div class="para-listening mt-2">
+                            With over 700 charts covering various aspects of listening,
+                            <br />social media analytics, competitor analytics, and agent
+                            <br />performance reports, you get a comprehensive and holistic
+                            <br />view of your brand's perception and performance in terms
+                            of <br />customer experience management and marketing
+                        </div>
+                    </div>
+                    <div class="listening-txt mt-8 mb-8">
+                        <div class="heading-listening">
+                            KISS - Konnect Insights Smart Suggestions
+                        </div>
+                        <div class="para-listening mt-2">
+                            In simple plain English, understand complex metrics that are
+                            <br />easy to remember. Insights are presented in a way humans
+                            <br />speak and with the right pictures. Understand what has
+                            <br />worked for you and get suggestions on what will work for
+                            you <br />with AI-powered smart suggestions
+                        </div>
+                    </div>
+                    <div class="listening-txt mt-8">
+                        <div class="heading-listening">Content Strategy</div>
+                        <div class="para-listening mt-2">
+                            With all your insights in one platform, identify trends, pain
+                            <br />points, hits and misses, moments when your audience is
+                            <br />active, and much more to quickly shape align messaging
+                            into <br />consumer-relevant and engagement-driven
+                        </div>
+                    </div>
+                </div>
+                <div class="Social_Listening-image mb-8">
+                    <img src="images/image 35.png" alt="" />
+                </div>
+            </div>
+            <div class="Social_Listening flex justify-evenly" id="Publishing">
+                <div class="Social_Listening-content mb-12">
+                    <div class="listening-txt">
+                        <div class="heading-listening">Social Media Management</div>
+                        <div class="para-listening mt-2">
+                            Easily and effectively publish or schedule posts on social
+                            <br />media across multiple channels and multiple accounts,
+                            <br />simultaneously, preview them on different devices, and
+                            check <br />them out on a content calendar for a 360-degree view
+                            of all <br />your posts
+                        </div>
+                    </div>
+                    <div class="listening-txt mt-8">
+                        <div class="heading-listening">Approval process</div>
+                        <div class="para-listening mt-2">
+                            Ensure the right and correct content goes live on social media
+                            <br />channels using the approval-rejection feature,
+                            facilitating easy <br />collaboration between brands, agencies,
+                            and teams for the <br />right representation of the brand
+                        </div>
+                    </div>
+                    <div class="listening-txt mt-8">
+                        <div class="heading-listening">Creative Asset Library</div>
+                        <div class="para-listening mt-2">
+                            Pre-save all your content, including text and media, in the
+                            <br />creative asset library. Easily pick them up for publishing
+                            and <br />scheduling, giving your design and content teams the
+                            flexibility <br />to plan and execute your campaigns and
+                            festivals
+                        </div>
+                    </div>
+                </div>
+                <div class="Social_Listening-image mb-12">
+                    <img src="images/image 36.png" alt="" />
+                </div>
+            </div>
+            <div class="Social_Listening flex justify-evenly" id="Feedback">
+                <div class="Social_Listening-content mb-12">
+                    <div class="listening-txt">
+                        <div class="heading-listening">Customer Satisfaction Surveys</div>
+                        <div class="para-listening mt-2">
+                            If your customers are really satisfied, Send Csat-Customer
+                            <br />Satisfaction Surveys that are linked to your customer
+                            care<br />module and learn from your customers about the agent's
+                            <br />performance
+                        </div>
+                    </div>
+                    <div class="listening-txt mt-8">
+                        <div class="heading-listening">Link to Social Listening</div>
+                        <div class="para-listening mt-2">
+                            Get the best ideas from those who matter the most—your
+                            <br />customers. Analyze all insights in unified dashboards with
+                            <br />classifications created for social listening
+                        </div>
+                    </div>
+                    <div class="listening-txt mt-8">
+                        <div class="heading-listening">Market Research</div>
+                        <div class="para-listening mt-2">
+                            Expand your market research capabilities to keep track of your
+                            <br />brand, test your ideas, or get a gut check with your
+                            target <br />audience. Share learning across your organization
+                        </div>
+                    </div>
+                </div>
+                <div class="Social_Listening-image mb-10">
+                    <img src="images/image 37.png" alt="" />
+                </div>
+            </div>
+            <div class="Social_Listening flex justify-evenly" id="Dashboards">
+                <div class="Social_Listening-content mb-8">
+                    <div class="listening-txt">
+                        <div class="heading-listening">Customised Dashboards</div>
+                        <div class="para-listening mt-2">
+                            Create dashboards for various stakeholders by simply
+                            <br />dragging and dropping charts from the chart library or
+                            charts <br />created from BI tools. Bring in your external data
+                            sources too <br />to create dashboards
+                        </div>
+                    </div>
+                    <div class="listening-txt mt-8">
+                        <div class="heading-listening">Create your own charts</div>
+                        <div class="para-listening mt-2">
+                            Create any type of chart using advanced features such as
+                            <br />pivoting, defining your own filters, columns, dimensions,
+                            and <br />measures, which are completely tailored to your needs
+                            while <br />going granular, equipping you with intelligent
+                            insights for better <br />business decisions
+                        </div>
+                    </div>
+                    <div class="listening-txt mt-8">
+                        <div class="heading-listening">Flexible reporting</div>
+                        <div class="para-listening mt-2">
+                            Shareable and collaborative dashboards and charts with the
+                            <br />ability to add your own notes or inferences. You won't
+                            find the <br />need to download data in excel spreadsheets or
+                            make ppts. <br />Save time and share live dashboards
+                        </div>
+                    </div>
+                    <div class="listening-txt mt-8">
+                        <div class="heading-listening">Themes and Brand colors</div>
+                        <div class="para-listening mt-2">
+                            Create your own themes to match your brand colors. Or define
+                            <br />chart colors to match the brand and competition. Use
+                            various <br />color palettes to make visually stunning
+                            dashboards
+                        </div>
+                    </div>
+                </div>
+                <div class="Social_Listening-image">
+                    <img src="images/image 38.png" alt="" />
+                </div>
+            </div>
+            <div class="Social_Listening flex justify-evenly" id="Management">
+                <div class="Social_Listening-content mb-8">
+                    <div class="listening-txt">
+                        <div class="heading-listening">Identify crisis</div>
+                        <div class="para-listening mt-2">
+                            Ensure you are aware of any impending crisis that could affect
+                            <br />your brand and be ready for it. Use keywords, hashtags and
+                            <br />other parameters such as follower count, to monitor
+                            situations <br />that can lead to crisis
+                        </div>
+                    </div>
+                    <div class="listening-txt mt-8">
+                        <div class="heading-listening">Get notified real time</div>
+                        <div class="para-listening mt-2">
+                            Once you have defined the parameters to identify crises, you
+                            <br />will get real time alerts based on them. You can ensure
+                            that <br />you don't miss out on these notifications by choosing
+                            to be <br />alerted on mobile apps and/or email
+                        </div>
+                    </div>
+                    <div class="listening-txt mt-8">
+                        <div class="heading-listening">Take Action</div>
+                        <div class="para-listening mt-2">
+                            Prepare a crisis management and mitigation plan by looking at
+                            <br />analytics and data. Respond to queries in real time and
+                            use <br />workflows to enhance their productivity and TATs and
+                            identify <br />and mobilise influencers to counter crises
+                        </div>
+                    </div>
+                </div>
+                <div class="Social_Listening-image mb-12">
+                    <img src="images/image 39.png" alt="" />
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section-lowmid">
+        <div class="teams-heading flex justify-center items-center pt-12">
+            <button class="teams-btn Alternative p-2">
+                Why Teams Prefer Konnect Insights?
+            </button>
+        </div>
+        <div class="teams flex justify-evenly items-center mt-10 gap-2">
+            <div class="teams-lists flex flex-col justify-center items-center gap-2">
+                <div class="team-img"><img src="images/team-1.png" alt="" /></div>
+                <div class="teams-lists-heading">Customer Service</div>
+                <div class="teams-lists-para">
+                    Enhance customer satisfaction<br />
+                    with our unified platform, <br />empowering customer care
+                    <br />agents, supervisors, and <br />stakeholders to engage, provide
+                    <br />tailored solutions, and create <br />happier customers.
+                </div>
+            </div>
+            <div class="teams-lists flex flex-col justify-center items-center gap-2">
+                <div class="team-img"><img src="images/team-2.png" alt="" /></div>
+                <div class="teams-lists-heading">Marketing</div>
+                <div class="teams-lists-para">
+                    Gain brand clarity with our unified <br />tool. Unlock valuable
+                    intelligence <br />on customers, competitors, and <br />your target
+                    segment. Meaningfully <br />engage with your customers for
+                    <br />enhanced satisfaction.
+                </div>
+            </div>
+            <div class="teams-lists flex flex-col justify-center items-center gap-2">
+                <div class="team-img"><img src="images/team-3.png" alt="" /></div>
+                <div class="teams-lists-heading">Agencies</div>
+                <div class="teams-lists-para">
+                    Save time and effort on Social <br />Listening, ORM, and Turnaround
+                    <br />Time reports with Konnect Insights <br />dashboard templates.
+                    <br />Easily customize them to match <br />your brand's themes and
+                    colors, earning <br />even more brand love.
+                </div>
+            </div>
+            <div class="teams-lists flex flex-col justify-center items-center gap-2">
+                <div class="team-img"><img src="images/team-4.png" alt="" /></div>
+                <div class="teams-lists-heading">Analysts</div>
+                <div class="teams-lists-para">
+                    Unlock valuable insights from <br />the social media goldmine!
+                    <br />Discover what users are <br />saying about your brand,
+                    <br />competition, and segment. <br />Make sense of the noise with
+                    <br />intuitive dashboards.
+                </div>
+            </div>
+            <div class="teams-lists flex flex-col justify-center items-center gap-2">
+                <div class="team-img"><img src="images/team-5.png" alt="" /></div>
+                <div class="teams-lists-heading">The PR Team</div>
+                <div class="teams-lists-para">
+                    Stay ahead of crises with real-time <br />alerts. Our mobile app and
+                    email<br />
+                    notifications ensure you're promptly <br />informed of potential
+                    issues before <br />they escalate. Our system monitors <br />social
+                    media and the entire web, <br />providing you with immediate
+                    signals.
+                </div>
+            </div>
+        </div>
+        <div class="insight-btn mt-10">
+            <button class="insight-btn-inside">Get a Free Trial</button>
+            <p class="insight-tg text-white">No CC Required</p>
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+
+</html>
